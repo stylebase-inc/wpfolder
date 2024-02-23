@@ -4,7 +4,7 @@
  * Plugin Name: Brandy
  * Plugin URI:  https://brandyhq.com/
  * Description: A plugin that lets you easily find your Brandy assets, and lets you categorize and group media files into virtual folders.
- * Version:     1.4
+ * Version:     1.0
  * Author:      Brandy
  * Author URI:  https://brandyhq.com/
  * Text Domain: brandy

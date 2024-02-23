@@ -258,7 +258,7 @@ class ControlPanel
     {
         $args = array(
             'headers' => array(
-                'Authorization' => "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Indha3lqMDdAZ21haWwuY29tIiwidWlkIjoiNjRkNjE3ODNiMDJhMzVhODczOWVhNDZkIiwiZmlyc3RfbmFtZSI6IldhbHRlciIsImlhdCI6MTcwNTEzODI2NCwiZXhwIjoxNzM2Njc0MjY0fQ.u5DtvXuML7SrRqRmXcTVnFlaC5ubE7VhjZnEV3Cdbbc"
+                'Authorization' => ""
             )
         );
 

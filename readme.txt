@@ -1,5 +1,5 @@
-﻿=== Acclectic Media Organizer ===
-Contributors: acclectic
+﻿=== Brandy ===
+Contributors: brandyhq
 Tags: media, media library, media library folders, attachment folders, media categories, media library categories, attachment categories, file manager, subfolders, file manager, directories, folder, folders, organize
 Requires at least: 5.0.0
 Tested up to: 6.0.2
@@ -7,14 +7,14 @@ Stable tag: 1.4
 Version: 1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
-Author: acclectic
-Donate link: https://www.acclectic.com/
+Author: brandyhq
+Donate link: https://www.brandyhq.com/
 
 A file manager for your media library. Organize your attachments, photos, and other media items into folders, and easily filter items by folder when you add them to posts and pages!
 
 == Description ==
 
-Acclectic Media Organizer creates a virtual file system that lets you better organize attachments and everything in your media library. Simply create folders and subfolders, and then drag and drop items directly within the media library. When you are ready to use attachments in your content, find them easily by selecting their folder. No more sifting through thousands of items to find the right one!
+Brandy creates a virtual file system that lets you better organize attachments and everything in your media library. Simply create folders and subfolders, and then drag and drop items directly within the media library. When you are ready to use attachments in your content, find them easily by selecting their folder. No more sifting through thousands of items to find the right one!
 
 == Features ==
 
@@ -22,7 +22,7 @@ Acclectic Media Organizer creates a virtual file system that lets you better org
 Create folders and subfolders, just like in a real file system.
 
 **Virtual File System**
-Acclectic Media Organizer creates a virtual file system, so all links to your media files will remain the same and continue to work.
+Brandy creates a virtual file system, so all links to your media files will remain the same and continue to work.
 
 **Direct Upload to Folder**
 Upload new items directly to a folder simply by selecting the folder when you add them to the media library.
@@ -46,7 +46,7 @@ The control panel is designed to be comprehensive but unobtrusive, and it is eas
 See only the items you want when adding attachments to posts and pages by clicking on the appropriate folder in the media browser dialog.
 
 **Multi-Mode Support**
-Acclectic Media Organizer works in both List and Grid modes in the Media Library. It is also shown in the media browser dialog when adding attachments.
+Brandy works in both List and Grid modes in the Media Library. It is also shown in the media browser dialog when adding attachments.
 
 **No Limits**
 All supported features are fully available to you with no limits of any kind. Create as many folders or subfolders as you want; add as many items to each folder as you want; and use this for as long as you want.
@@ -122,10 +122,10 @@ All supported features are fully available to you with no limits of any kind. Cr
 No. All supported features are fully available to you with no limits of any kind.
 
 = Will my media files and attachments be moved when I assign them to folders? =
-No. Acclectic Media Organizer creates a virtual file system for organization. All of your existing files will be kept in their existing physical folders, and any links pointing to them will continue to work without change.
+No. Brandy creates a virtual file system for organization. All of your existing files will be kept in their existing physical folders, and any links pointing to them will continue to work without change.
 
 = What if I've used other file organization plugins in the past? =
-Since Acclectic Media Organizer creates a separate virtual file system, any organization you make will not be affected by any similar plugins you've used in the past or may use in the future.
+Since Brandy creates a separate virtual file system, any organization you make will not be affected by any similar plugins you've used in the past or may use in the future.
 
 = Can I export my media folders to another server or computer? =
 The plugin does not support doing so directly within the plugin, but it is a feature we plan to include in the future. However, it is possible to do so by exporting and importing the database tables that host the virtual file system. Please contact support if you'd like help on this.
@@ -139,33 +139,11 @@ Yes! In the grid view, simply enable *Bulk select*. Then drag all items to the d
 
 == Supported Languages ==
 
-Acclectic Media Organizer is available in these languages:
+Brandy is available in these languages:
 
-* Chinese (Simplified)
-* Chinese (Traditional)
 * English
-* French
-* German
-* Italian
-* Japanese
-* Portugese
-* Polish
-* Russian
-* Spanish
 
 == Changelog ==
 
-= 1.4 - September 14, 2022 =
-- Changed default theme color to blue.
-
-= 1.3 - October 30, 2021 =
-- Allow scrolling in main control panel.
-
-= 1.2 - July 20, 2021 =
-- Prevent i18n conflicts with other plugins.
-
-= 1.1 - July 4, 2021 =
-- Check for null settings on refresh.
-
-= 1.0 - February 24, 2021 = 
+= 1.0 - February 23, 2024 = 
 - First public release.

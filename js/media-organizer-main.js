@@ -110,7 +110,7 @@
 
 			// Get folders from server and instantiate folder tree.
 			this.getFolderTree(true, true);
-			this.getBrandyAssets();
+			// this.getBrandyAssets();
 
 			// Set up top category cards.
 			jq("#all_items_card").on("click", function () {
