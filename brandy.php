@@ -1,13 +1,12 @@
 <?php
 
 /**
- * Plugin Name: Brandy
- * Plugin URI:  https://brandyhq.com/
- * Description: A plugin that lets you easily find your Brandy assets, and lets you categorize and group media files into virtual folders.
+ * Plugin Name: WP Folder
+ * Description: A plugin that lets you easily find your WP Folder assets, and lets you categorize and group media files into virtual folders.
  * Version:     1.0
- * Author:      Brandy
- * Author URI:  https://brandyhq.com/
- * Text Domain: brandy
+ * Author:      Seahawkmedia
+ * Author URI:  https://seahawkmedia.com/
+ * Text Domain: wp-folder
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path: /languages/

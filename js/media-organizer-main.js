@@ -414,7 +414,7 @@
 				{
 					class: "text-xl mb-4",
 				},
-				"Brandy Assets"
+				"WP Folder Assets"
 			);
 
 			var brandyAssets = wp.element.createElement(
