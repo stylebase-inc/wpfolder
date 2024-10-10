@@ -2,15 +2,14 @@
 
 /**
  * Plugin Name: WP Folder
- * Description: A plugin that lets you easily find your WP Folder assets, and lets you categorize and group media files into virtual folders.
+ * Description: A plugin that lets you easily categorize and group media files into virtual folders.
  * Version:     1.0
- * Author:      Seahawkmedia
- * Author URI:  https://seahawkmedia.com/
+ * Author:      Stylebase
+ * Author URI:  https://stylebase.ai/
  * Text Domain: wp-folder
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path: /languages/
- * Original: https://villatheme.com/extensions/exmage-wordpress-image-links/
  */
 
 namespace Acclectic;
@@ -32,8 +31,8 @@ define('ACCLECTIC_CSS_URL', ACCLECTIC_URL . 'css/');
 define('ACCLECTIC_ASSETS_URL', ACCLECTIC_URL . 'assets/');
 define('ACCLECTIC_THIRD_PARTY_URL', ACCLECTIC_URL . 'third_party/');
 
-define('ACCLECTIC_FOLDERS_TABLE', 'sp_media_organizer_folders');
-define('ACCLECTIC_ITEMS_TABLE', 'sp_media_organizer_items');
+define('ACCLECTIC_FOLDERS_TABLE', 'wp_folder_folders');
+define('ACCLECTIC_ITEMS_TABLE', 'wp_folder_items');
 
 function acclectic_init()
 {
@@ -97,5 +96,3 @@ register_activation_hook(__FILE__, 'Acclectic\\activate');
 // TODO: Load classes so activate/deactivate can be done in another class.
 // register_activation_hook(__FILE__, array('Acclectic\\AcclecticPlugin', 'activate'));
 // register_deactivation_hook(__FILE__, array('Acclectic\\AcclecticPlugin', 'deactivate'));
-
-require_once(__DIR__ . '/exmage-wp-image-links.php');

@@ -1,5 +1,5 @@
 ﻿=== WP Folder ===
-Contributors: brandyhq
+Contributors: stylebase
 Tags: media, media library, media library folders, attachment folders, media categories, media library categories, attachment categories, file manager, subfolders, file manager, directories, folder, folders, organize
 Requires at least: 5.0.0
 Tested up to: 6.0.2
@@ -7,8 +7,8 @@ Stable tag: 1.4
 Version: 1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
-Author: brandyhq
-Donate link: https://seahawkmedia.com/
+Author: Stylebase
+Donate link: https://stylebase.ai/
 
 A file manager for your media library. Organize your attachments, photos, and other media items into folders, and easily filter items by folder when you add them to posts and pages!
 

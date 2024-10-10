@@ -47,7 +47,6 @@ class ControlPanel
         add_action('wp_ajax_acclectic_update_media_folder', array($this, 'updateMediaFolder'));
         add_action('wp_ajax_acclectic_delete_media_folder', array($this, 'deleteMediaFolder'));
         add_action('wp_ajax_acclectic_get_media_folders', array($this, 'getMediaFolders'));
-        add_action('wp_ajax_acclectic_get_brandy_assets', array($this, 'getBrandyAssets'));
         add_action('wp_ajax_acclectic_assign_media_folder', array($this, 'assignMediaFolder'));
         add_action('wp_ajax_acclectic_unassign_media_folder', array($this, 'unassignMediaFolder'));
 
@@ -249,28 +248,6 @@ class ControlPanel
         );
 
         wp_send_json_success($resultsArray);
-    }
-
-    /**
-     * AJAX callback to get all folders.
-     */
-    public function getBrandyAssets()
-    {
-        $args = array(
-            'headers' => array(
-                'Authorization' => ""
-            )
-        );
-
-        $response = wp_remote_get('https://api.brandyhq.com/v1/assets/64d61a40b02a35a8739ea473?type=image', $args);
-        $body     = wp_remote_retrieve_body($response);
-
-        // $resultsArray = array(
-        //     'assets' => $response,
-        //     'body' => $body
-        // );
-
-        wp_send_json_success(json_decode($body)->data);
     }
 
     /**
